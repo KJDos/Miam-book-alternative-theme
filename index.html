@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="build/style.css">
+    <title>theme_2808</title>
+</head>
+
+<nav class="nav">
+    <div class="logo">
+        <a href="index.html">
+            <img src="http://placehold.it/50x50" alt="">
+        </a>
+    </div>
+
+        <ul class="nav-menu">
+            <li class="nav-dropdown"><a href="#">Mon compte</a>
+                <ul class="nav-dropdown-content">
+                    <li class="nav-dropdown-item"><a href="#">Se connecter</a></li>
+                    <li class="nav-dropdown-item"><a href="register.html">S'inscrire</a></li>
+                </ul>
+            </li>
+            <li class="nav-dropdown"><a href="#">Les recettes</a>
+               <ul class="nav-dropdown-content">
+                    <li class="nav-dropdown-item"><a href="#">Apéritif</a></li>
+                    <li class="nav-dropdown-item"><a href="#">Entrée</a></li>
+                    <li class="nav-dropdown-item"><a href="#">Plat</a></li>
+                    <li class="nav-dropdown-item"><a href="#">Dessert</a></li>
+                    <li class="nav-dropdown-item"><a href="#">Boisson</a></li>
+
+               </ul>
+            </li>
+            <li><a href="#">Nouvelle recette</a></li>
+        </ul>
+    <div class="search">
+        <a href="#"><i class="fas fa-search"></i></a>
+        
+    </div>
+    <div class="icon-mobile" id="icon-mobile"><i class="fas fa-bars"></i></div>
+</nav>
+<nav class="nav-responsive">
+    <ul class="nav-responsive-menu">
+        <li class="nav-responsive-item dropdown">
+            <div class="icon-menu"><i class="far fa-user"></i></div>
+            <div class="text-menu"><a href="#">Mon compte</a></div>
+            <ul class="dropdown-content">
+                <li class="dropdown-item"><a href="#">Se connecter</a></li>
+                <li class="dropdown-item"><a href="register.html">S'inscrire</a></li>
+
+
+            </ul>
+        </li>
+        <li class="nav-responsive-item dropdown">
+            <div class="icon-menu"><i class="fas fa-utensils"></i></div>
+            <div class="text-menu"><a href="#">Les recettes</a></div>
+            <ul class="dropdown-content">
+                    <li class="dropdown-item"><a href="#">Apéritif</a></li>
+                    <li class="dropdown-item"><a href="#">Entrée</a></li>
+                    <li class="dropdown-item"><a href="#">Plat</a></li>
+                    <li class="dropdown-item"><a href="#">Dessert</a></li>
+                    <li class="dropdown-item"><a href="#">Boisson</a></li>
+
+            </ul>
+        </li>
+        <li class="nav-responsive-item">
+            <div class="icon-menu"><i class="far fa-edit"></i></div>
+            <div class="text-menu"><a href="#">Nouvelle recette</a></div>
+        </li>
+        <li class="nav-responsive-item">
+            <div class="icon-menu"><i class="fas fa-search"></i></div>
+            <div class="text-menu"><a href="#">Rechercher</a></div>
+        </li>
+    </ul>
+</nav>
+
+<div class="container top-page">
+    <!-- ALERTE DANGER -->
+    <!--<div class="alert">
+        <div class="icon-alert danger">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="alert-text">Oups ! Ceci est une alerte danger.</div>
+    </div>-->
+    <!-- ALERTE SUCCESS -->
+    <!--<div class="alert">
+        <div class="icon-alert success">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="alert-text">Bravo ! Ceci est une alerte success.</div>
+    </div>-->
+
+    <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                <li class="glide__slide">
+                    <div class="glide-item"
+                        style="background-image: url('https://picsum.photos/1980/500?random=24395');">
+                        <h1>Hello world ! (un)</h1>
+                        <a class="btn-1" href="show.html">Go somewhere</a>
+                    </div>
+                </li>
+                <li class="glide__slide">
+                    <div class="glide-item" style="background-image: url('https://picsum.photos/1980/500?random=24394');">
+                        <h1>Hello world ! (deux)</h1>
+                        <div class="btn-1"><a href="show.html">Go somewhere</a></div>
+                    </div>
+                </li>
+                <li class="glide__slide">
+                    <div class="glide-item"
+                        style="background-image: url('https://picsum.photos/1980/500?random=24393');">
+                        <h1>Hello world ! (trois)</h1>
+                        <div class="btn-1"><a href="show.html">Go somewhere</a></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i
+                    class="fas fa-chevron-left"></i></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i
+                    class="fas fa-chevron-right"></i></button>
+        </div>
+
+    </div>
+
+
+<div class=" grid">
+
+    <div class="grid-item">
+        <div class="card">
+            <div class="shadow"></div>
+            <img src="https://picsum.photos/250/350?random=25391" alt="">
+            <a href="#" class="card-item">
+                <div class="card-title">
+                    <h1>Lorem ipsum dolor sit.</h1>
+                    <!--<a href="#" class="btn">Go somewhere</a>-->
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="grid-item">
+        <div class="card">
+            <div class="shadow"></div>
+            <img src="https://picsum.photos/250/350?random=25392" alt="">
+            <a href="#" class="card-item">
+                <div class="card-title">
+                    <h1>Lorem ipsum dolor sit amet</h1>
+                    <!--<a href="#" class="btn">Go somewhere</a>-->
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="grid-item">
+        <div class="card">
+            <div class="shadow"></div>
+            <img src="https://picsum.photos/250/350?random=25393" alt="">
+            <a href="#" class="card-item">
+                <div class="card-title">
+                    <h1>Lorem ipsum dolor sit.</h1>
+                    <!--<a href="#" class="btn">Go somewhere</a>-->
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="grid-item">
+        <div class="card">
+            <div class="shadow"></div>
+            <img src="https://picsum.photos/250/350?random=25394" alt="">
+            <a href="#" class="card-item">
+                <div class="card-title">
+                    <h1>Lorem ipsum dolor sit.</h1>
+                    <!--<a href="#" class="btn">Go somewhere</a>-->
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="grid-item">
+        <div class="card">
+            <div class="shadow"></div>
+            <img src="https://picsum.photos/250/350?random=25395" alt="">
+            <a href="#" class="card-item">
+                <div class="card-title">
+                    <h1>Lorem ipsum dolor sit.</h1>
+                    <!--<a href="#" class="btn">Go somewhere</a>-->
+                </div>
+            </a>
+        </div>
+    </div>
+        <div class="grid-item">
+            <div class="card">
+                <div class="shadow"></div>
+                <img src="https://picsum.photos/250/350?random=25396" alt="">
+                <a href="#" class="card-item">
+                    <div class="card-title">
+                        <h1>Lorem ipsum dolor sit.</h1>
+                        <!--<a href="#" class="btn">Go somewhere</a>-->
+                    </div>
+                </a>
+            </div>
+        </div>
+
+</div><!--grid-->
+</div><!--container-->
+<script src="app.js"></script>
+<script src="nav.js"></script>
+<script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+<script>
+    new Glide('.glide').mount()
+</script>
+</body>
+</html>
