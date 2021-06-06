@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="build/style.css">
@@ -88,33 +89,92 @@
         </div>
         <div class="alert-text">Bravo ! Ceci est une alerte success.</div>
     </div>-->
+    <form action="#" class="form-newRecipe">
+        <div class="bloc mb-15">
+            <h3 class="title">INFOS</h3>
+                <div class="form-grid">
+                    <div class="label">
+                        <label for="name">Nom</label>
+                    </div>
+                    <input type="text" id="name" placeholder="Donnez un nom original à cette recette...">
+                </div>
 
-    <form class="form-register" action="#">
-        <h1 class="">SE CONNECTER</h1>
+                <div class="row">
+                    <div class="form-grid mr-15">
+                        <div class="label">
+                            <label for="name">Portions</label>
+                        </div>
+                        <input type="text" id="name" placeholder="">
+                    </div>
 
-        <div class="form-grid">
-            <div class="label">
-                <label for="mail"><i class="fas fa-at"></i></label>
-            </div>
-
-            <input type="text" id="mail" placeholder="E-mail">
+                    <div class="form-grid">
+                        <div class="label">
+                            <label for="categorie">Catégorie</label>
+                        </div>
+                        <select id="categorie">
+                            <option value="">--Please choose an option--</option>
+                            <option value="dog">Dog</option>
+                            <option value="cat">Cat</option>
+                            <option value="hamster">Hamster</option>
+                            <option value="parrot">Parrot</option>
+                            <option value="spider">Spider</option>
+                            <option value="goldfish">Goldfish</option>
+                        </select>
+                    </div>
+                </div>
         </div>
 
-        <div class="form-grid">
-            <div class="label">
-                <label for="mdp"><i class="fas fa-unlock-alt"></i></label>
-            </div>
 
-            <input type="password" id="mdp" placeholder="Mot de passe">
+        <div class="bloc mb-15">
+            <h3 class="title">DURÉES</h3>
+            <div class="row">
+                <div class="form-grid mr-15">
+                    <div class="label">
+                        <label for="name">Préparation</label>
+                    </div>
+                    <input type="time">
+                </div>
+                <div class="form-grid mr-15">
+                    <div class="label">
+                        <label for="name">Cuisson</label>
+                    </div>
+                    <input type="time">
+                </div>
+                <div class="form-grid">
+                    <div class="label">
+                        <label for="name">Repos</label>
+                    </div>
+                    <input type="time">
+                </div>
+            </div>
         </div>
 
-        <button class="btn-1" type="submit">Ok</button>
+        <div class="bloc collection mb-15">
+            <h3 class="title">INGRÉDIENTS</h3>
+            <button class="btn-1 small-btn"><i class="fas fa-plus"></i> Ajouter un ingrédient</button>
+        </div>
+
+        <div class="bloc collection mb-15">
+            <h3 class="title">ÉTAPES</h3>
+            <button class="btn-1 small-btn"><i class="fas fa-plus"></i> Ajouter un étape</button>
+        </div>
+
+        <div class="bloc collection mb-15">
+            <h3 class="title">PHOTO</h3>
+            <button class="btn-1 small-btn">Ajouter une photo</button>
+        </div>
+        <div class="submit">
+            <button class="btn-1">Envoyer</button>
+        </div>
+        
     </form>
 
-</div><!--container-->
 
+    
+
+</div><!--container-->
 <script src="app.js"></script>
-<script src="nav.js"></script>
 
 </body>
+
 </html>
